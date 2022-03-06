@@ -1,0 +1,93 @@
+body{
+   direction: rtl; 
+   font-family: 'iransans';
+}
+.navbar-dark .navbar-nav .nav-link{
+    color:#fff;
+}
+
+.m-login{
+    background: linear-gradient(40deg,#2096ff,#05ffa3)!important;
+    border: none;
+    padding: 10px;
+    width: 48%;
+    border-radius: 25px;
+    margin: auto;
+    margin-top: 40px;
+    box-shadow: 0 0 5px #999;
+    display: block;
+}
+.modal .modal-footer{
+    background: #929fba !important;
+}
+.dropdown-menu.show{
+    min-width: 260px;
+    border: none;
+    box-shadow: 0 0 5px #999;
+    padding: 15px;
+}
+@media(min-width:768px) {
+    #carouselExampleControls{
+        height: 100vh;
+        overflow: hidden;
+    }
+}
+.services{
+     color: #656565; 
+} 
+.pro-btn{
+    background: linear-gradient(87deg,#11cdef,#1171ef)!important;
+    border: none;
+} 
+nav#m-page{
+    direction: ltr;
+}   
+nav#m-page a{
+    border: none;
+} 
+.page-item.active .page-link{
+    z-index: 1;
+    color: #fff;
+    background-color: #ff2438;
+    border-radius: 2px;
+    box-shadow: 0 0 5px #bbb;
+} 
+ul#pills-tab{
+    background: linear-gradient(87deg,#11cdef,#1171ef)!important;
+    padding: 7px;
+    border-radius: 3px;
+    box-shadow: 0 0 5px #aaa;
+    width: 95%;
+    margin: auto;
+}  
+.tab-content {
+    box-shadow: 0 0 10px #bbb;
+    border-radius: 4px;
+    padding: 15px;
+    position: relative;
+    top: -42px;
+    z-index: -999;
+    padding-top: 50px;
+}
+.card-avetar{
+    width: 130px;
+    height: 130px;
+    overflow: hidden;
+    margin: -75px auto 25px;
+    border-radius: 50%;
+    border: 5px solid #fff;
+}
+.card-avetar img{
+    width: 100%;
+}
+footer i.fab{
+    background: #fff;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    border-radius: 4px;
+    box-shadow: 0 0 8px #bbb;
+}  
+.scroll{
+    background: linear-gradient(40deg,#ff0098,#7700ff)!important;
+}  
